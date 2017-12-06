@@ -1,7 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/.git_template/hooks
-cp prepare-commit-msg ~/.git_template/hooks/
+cp -R .git_template ~/.git_template
 chmod 755 ~/.git_template/hooks/prepare-commit-msg
 
 git config --global init.templatedir '~/.git_template'
