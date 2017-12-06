@@ -8,7 +8,8 @@ chmod 775 .git/hooks/prepare-commit-msg
 ```
 
 ## To setup this hook for all your project 
-### Setup 
+### Setup the hook on your computer
+With this command, all of the new repositories created by *git init* command will get the hook from the template folder.
 ```bash
 cd /tmp/
 git clone https://github.com/Arthyshows/git-hooks-prepare-commit-jira-bitbucket.git
@@ -17,3 +18,9 @@ chmod 755 setup.sh
 ./setup.sh
 ```
 
+### Add the hook to existing projects
+```bash
+cd <your_project>
+git init
+```
+The prompt will tell you that the project was reinitialized
