@@ -24,3 +24,6 @@ cd <your_project>
 git init
 ```
 The prompt will tell you that the project was reinitialized
+```bash
+Reinitialized existing Git repository in /tmp/test/.git/
+```
