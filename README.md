@@ -12,7 +12,7 @@ chmod 775 .git/hooks/prepare-commit-msg
 With this command, all of the new repositories created by *git init* command will get the hook from the template folder.
 ```bash
 cd /tmp/
-git clone https://github.com/Arthyshows/git-hooks-prepare-commit-jira-bitbucket.git
+git clone https://github.com/arthurmauvezin/git-hooks-prepare-commit-jira.git
 cd git-hooks-prepare-commit-jira-bitbucket/
 chmod 755 setup.sh
 ./setup.sh
