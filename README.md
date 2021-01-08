@@ -13,7 +13,7 @@ With this command, all of the new repositories created by *git init* command wil
 ```bash
 cd /tmp/
 git clone https://github.com/arthurmauvezin/git-hooks-prepare-commit-jira.git
-cd git-hooks-prepare-commit-jira-bitbucket/
+cd git-hooks-prepare-commit-jira/
 chmod 755 setup.sh
 ./setup.sh
 ```
